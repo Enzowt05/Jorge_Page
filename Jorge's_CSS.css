@@ -1,0 +1,64 @@
+body {
+    font-family: Montserrat;
+    font-style: normal;
+    line-height: normal;    
+}
+.container {
+    overflow: auto;
+    width: 800px;
+    min-width: 800px;
+}
+
+.List {
+    margin: 2svw;
+    text-align: left;
+}
+
+#Tittle {
+    margin: 5svw;
+    text-align: center;
+    color: #534645;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.Tittle {
+    margin-top: 5svh;
+    align-items: center;
+
+}
+
+#h2 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+ol {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#Jorge {
+    background: url(Jorge_LandPage.jpeg), lightgray 50% / cover no-repeat;
+    width: 350px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    overflow: auto;
+}
+
+#Line {
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #Jorge {
+      display: none;
+    }
+
+    #Line {
+        width: 80%;
+    }
+  }
